@@ -2,8 +2,8 @@ import unittest
 import exercises
 import sqlite3
 
-sender, username, password = '***REMOVED***@messaging.sprintpcs.com', '***REMOVED***', '***'
-recipient, gmail_user, gmail_pwd = '***REMOVED***@messaging.sprintpcs.com', '***REMOVED***@gmail.com', '***'
+sender, username, password = '***REMOVED***@messaging.sprintpcs.com', '***REMOVED***', '***REMOVED***'
+recipient, gmail_user, gmail_pwd = '***REMOVED***@messaging.sprintpcs.com', '***REMOVED***@gmail.com', '***REMOVED***'
 
 class SqlTableCreationTests(unittest.TestCase):
     def setUp(self):
